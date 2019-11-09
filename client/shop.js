@@ -151,10 +151,11 @@ var createCheckoutSession = function(stripe) {
       headers: {
         "content-type": "application/json"
       },
-      body: JSON.stringify({
-        // quantity: quantity,
-        cart
-      })
+      body: cart
+      // body: JSON.stringify({
+      //   // quantity: quantity,
+      //   cart
+      // })
     }).then(function(result) {
       return result.json();
     });
