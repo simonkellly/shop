@@ -142,19 +142,19 @@ var createCheckoutSession = function(stripe) {
 } else {
   if (shippingSelect.value === 'delivery'){
     cart.push(data["shipping"])
+    
   }
-  console.log("yeet");
-  
-  console.log(cart);
-  
+
+
     return fetch("/create-checkout-session", {
       method: "POST",
       headers: {
-        "content-type": "application/json"
+        "Content-Type": "application/json"
       },
-      body: JSON.stringify(
+      body: JSON.stringify({
+        // quantity: quantity,
         cart
-      )
+      })
     }).then(function(result) {
       return result.json();
     });
