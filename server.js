@@ -26,7 +26,6 @@ app.get("/", (req, res) => {
 app.get("/config", (req, res) => {
   res.send({
     publicKey: process.env.STRIPE_PUBLISHABLE_KEY,
-    basePrice: process.env.BASE_PRICE,
     currency: process.env.CURRENCY
   });
 });
