@@ -143,6 +143,8 @@ var createCheckoutSession = function(stripe) {
   if (shippingSelect.value === 'delivery'){
     cart.push(data["shipping"])
   }
+  console.log("yeet");
+  
   console.log(cart);
   
     return fetch("/create-checkout-session", {
@@ -150,9 +152,9 @@ var createCheckoutSession = function(stripe) {
       headers: {
         "content-type": "application/json"
       },
-      body: JSON.stringify({
+      body: JSON.stringify(
         cart
-      })
+      )
     }).then(function(result) {
       return result.json();
     });
