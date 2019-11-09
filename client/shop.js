@@ -149,7 +149,7 @@ var createCheckoutSession = function(stripe) {
     return fetch("/create-checkout-session", {
       method: "POST",
       headers: {
-        "Content-Type": "application/json"
+        "content-type": "application/json"
       },
       body: JSON.stringify({
         // quantity: quantity,
