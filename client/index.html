@@ -8,11 +8,11 @@
       gtag('js', new Date());
       gtag('config', 'UA-146043055-1');
     </script>
-    <script>
+    <!-- <script>
     if(window.location.protocol != 'https:') {
       location.href = location.href.replace("http://", "https://");
     }
-    </script>
+    </script> -->
     
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -57,7 +57,7 @@
         }
         
         
-      </style>
+    </style>
     <style>
     .right{
       justify-content: flex-end;
@@ -66,8 +66,8 @@
       text-align: center;
       display: inline-block;
       display: flex;
-      margin-left: auto;
-    margin-right: auto;
+      /* margin-left: auto;
+    margin-right: auto; */
       
     }
     .padded-right {
@@ -226,17 +226,19 @@
         </div>
 
 <!-- Hero -->
-<div class="titleSection notification is-danger home-hero">
-  <br>
-  <p class="title is-2 has-text-centered">Speedcubing Ireland Store</p>
-  <p class="subtitle has-text-centered has-text-weight-light">The official store for Speedcubing Ireland Merchandise</p>
-  <br>
-</div>
+<section class="hero is-primary is-bold">
+  <div class="hero-body">
+      <p class="title is-2 has-text-centered">Speedcubing Ireland Store</p>
+      <p class="subtitle has-text-centered has-text-weight-light">The Official Store For Speedcubing Ireland Merchandise</p>    
+  </div>
+ </section>
+<br>
+<br>
 
 <!-- Items -->
 <div class="container is-fluid">
   <!-- Columns -->
-  <div class="columns">
+  <div class="columns is-multiline">
     <!-- Hoodiies -->
     <div class="column is-one-quarter-desktop is-one-third-tablet" >
       <div class="card" id="hoodie">
@@ -252,11 +254,11 @@
         <hr>
         <p class="title">SI Hoodie <span class="tag is-primary is-pulled right">Order By Nov 30</span></p>
         <p class="subtitle has-text-link">€29.99 - €34.99</p> 
-        <p class="is-size-6 has-text-grey">
+        <!-- <p class="is-size-6 has-text-grey">
           With custom name
           <br>
           Group order will be placed on November 30th
-        </p>
+        </p> -->
       </div>
       <footer class="card-footer">
           <p class="card-footer-item">
@@ -282,11 +284,11 @@
         <hr>
         <p class="title">SI Jersey <span class="tag is-primary is-pulled right">Order By Nov 30</span></p>
         <p class="subtitle has-text-link">€25.99 - €29.99</p> 
-        <p class="is-size-6 has-text-grey">
+        <!-- <p class="is-size-6 has-text-grey">
             With initials
             <br>
             Group order will be placed on November 30th
-          </p>
+          </p> -->
       </div>
       <footer class="card-footer">
           <p class="card-footer-item">
@@ -297,6 +299,8 @@
       </footer>
     </div>
     </div>
+    
+    
   </div>
 </div>
 
@@ -307,34 +311,39 @@
     <div class="modal-background" onclick="closeHoodieFunction()"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title"><strong>SI Hoodie</strong></p>
+        <p class="modal-card-title"><strong>SI Hoodie - Custom Name</strong></p>
         <button class="delete" aria-label="close" onClick="closeHoodieFunction()"></button>
       </header>
       <section class="modal-card-body">
-          <p class="product">
-            <img class="image is-128x128 is-block product" src="assets/products/Hoodie Front.png" onclick="modalImage('assets/products/Hoodie Front.png')">
-            <img class="image is-128x128 is-block product is-hidden-mobile" src="assets/products/Hoodie Side.png" onclick="modalImage('assets/products/Hoodie Side.png')">
-            <img class="image is-128x128 is-block product " src="assets/products/Hoodie Back.png" onclick="modalImage('assets/products/Hoodie Back.png')">
-          </p>
-          <hr>
           <p id="descText">
-             <strong>Order before November 30 to recieve it before Christmas</strong> 
+             <strong>Fabrication order will be placed November 30th</strong> 
+             <br>
+             Order before then to avoid disapointment
               <br>
+            
               <br>
               Adult Sizes: €34.99 <br>
               Child Sizes: €29.99
           </p>
           <hr>
+          <p class="product">
+            <img class="image is-128x128 is-block product" src="assets/products/Hoodie Front.png" onclick="modalImage('assets/products/Hoodie Front.png')">
+            <img class="image is-128x128 is-block product is-hidden-mobile" src="assets/products/Hoodie Side.png" onclick="modalImage('assets/products/Hoodie Side.png')">
+            <img class="image is-128x128 is-block product " src="assets/products/Hoodie Back.png" onclick="modalImage('assets/products/Hoodie Back.png')">
+          </p>
+        <hr>
+        <label class="label">Select Size</label>
         <div class="select">
           <select id="hoodieSelect">
-              <option value="" disabled selected>Select Size</option>
-              <option>Adult X-Small</option>
+              <option value="Select Size" disabled selected>Size</option>
+              <option>Adult XS</option>
               <option>Adult Small</option>
               <option>Adult Medium</option>
               <option>Adult Large</option>
-              <option>Adult X-Large</option>
-              <option>Adult 2X-Large</option>
-              <option>Adult 3X-Large</option>
+              <option>Adult XL</option>
+              <option>Adult 2XL</option>
+              <option>Adult 3XL</option>
+              <option value="" disabled>Child Sizes</option>
               <option>Child 1-2 Yrs</option>
               <option>Child 3-4 Yrs</option>
               <option>Child 5-6 Yrs</option>
@@ -344,7 +353,12 @@
               <option>Child 13-14 Yrs</option>
           </select>
         </div>
-      </section>
+        <br>
+        <br>
+        <label class="label">Add Name</label>
+        <input class="input" id="hoodieCustom" type="text" value='' placeholder="Initials">
+      
+      </section>  
       <footer class="modal-card-foot">
         <button class="button is-success" onclick="hoodieSize()">Add to Cart</button>
       </footer>
@@ -356,34 +370,39 @@
     <div class="modal-background" onclick="closeJerseyFunction()"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title"><strong>SI Jersey</strong></p>
+        <p class="modal-card-title"><strong>SI Jersey - Custom Initials</strong></p>
         <button class="delete" aria-label="close" onClick="closeJerseyFunction()"></button>
       </header>
       <section class="modal-card-body">
-          <p class="product">
-            <img class="image is-128x128 is-block product" src="assets/products/Jersey Front.png" onclick="modalImage('assets/products/Jersey Front.png')">
-            <img class="image is-128x128 is-block product is-hidden-mobile" src="assets/products/Jersey Side.png" onclick="modalImage('assets/products/Jersey Side.png')">
-            <img class="image is-128x128 is-block product " src="assets/products/Jersey Back.png" onclick="modalImage('assets/products/Jersey Back.png')">
-          </p>
-          <hr>
-          <p id="descText">
-              <strong>Order before November 30 to recieve it before Christmas</strong> 
-              <br>
-              <br>
-              Adult Sizes: €29.99 <br>
-              Child Sizes: €25.99
-          </p>
-          <hr>
-        <div class="select">
-          <select id="jerseySelect">
-            <option value="" disabled selected>Select Size</option>
-            <option>Adult X-Small</option>
+        <p id="descText">
+           <strong>Fabrication order will be placed November 30th</strong> 
+           <br>
+           Order before then to avoid disapointment
+            <br>
+          
+            <br>
+            Adult Sizes: €29.99 <br>
+            Child Sizes: €25.99
+        </p>
+        <hr>
+        <p class="product">
+          <img class="image is-128x128 is-block product" src="assets/products/Jersey Front.png" onclick="modalImage('assets/products/Jersey Front.png')">
+          <img class="image is-128x128 is-block product is-hidden-mobile" src="assets/products/Jersey Side.png" onclick="modalImage('assets/products/Jersey Side.png')">
+          <img class="image is-128x128 is-block product " src="assets/products/Jersey Back.png" onclick="modalImage('assets/products/Jersey Back.png')">
+        </p>
+      <hr>
+      <label class="label">Select Size</label>
+      <div class="select">
+        <select id="jerseySelect">
+            <option value="Select Size" disabled selected>Size</option>
+            <option>Adult XS</option>
             <option>Adult Small</option>
             <option>Adult Medium</option>
             <option>Adult Large</option>
-            <option>Adult X-Large</option>
-            <option>Adult 2X-Large</option>
-            <option>Adult 3X-Large</option>
+            <option>Adult XL</option>
+            <option>Adult 2XL</option>
+            <option>Adult 3XL</option>
+            <option value="" disabled>Child Sizes</option>
             <option>Child 1-2 Yrs</option>
             <option>Child 3-4 Yrs</option>
             <option>Child 5-6 Yrs</option>
@@ -391,9 +410,14 @@
             <option>Child 9-10 Yrs</option>
             <option>Child 11-12 Yrs</option>
             <option>Child 13-14 Yrs</option>
-          </select>
-        </div>
-      </section>
+        </select>
+      </div>
+      <br>
+      <br>
+      <label class="label">Add Initials</label>
+      <input class="input" id="jerseyCustom" type="text" placeholder="Initials">
+    
+    </section> 
       <footer class="modal-card-foot">
         <button class="button is-success" onclick="jerseySize()">Add to Cart</button>
       </footer>
@@ -466,7 +490,18 @@
   </span>
   <span>Cart</span>
 </button>
-
+<br>
+<br>
+<!-- Footer -->
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Speedcubing Ireland</strong> by <a href="https://www.worldcubeassociation.org/persons/2017KELL08">Simon Kelly</a>. 
+      <br>
+      <a href="https://github.com/simonkellly"><i class="fab fa-github"></i></a>
+    </p>
+  </div>
+</footer>
 <!-- Scripts -->
 <script src="https://speedcubingireland.com/snarkdown.js"></script>
 <script src="https://speedcubingireland.com/main.js"></script>

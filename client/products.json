@@ -7,227 +7,206 @@
     "currency": "eur",
     "amount": "650" 
   },
-  "hoodieAdult X-Small" : {
-    "name": "Hoodie - Adult X-Small",
+  "hoodieAdult XS" : {
+    
     "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
   "hoodieAdult Small" : {
-    "name": "Hoodie - Adult Small",
+    
     "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
   "hoodieAdult Medium" : {
-    "name": "Hoodie - Adult Medium",
+    
     "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
   "hoodieAdult Large" : {
-    "name": "Hoodie - Adult Large",
+    
     "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
-  "hoodieAdult X-Large" : {
-    "name": "Hoodie - Adult X-Large",
+  "hoodieAdult XL" : {
+  
     "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
-  "hoodieAdult 2X-Large" : {
-    "name": "Hoodie - Adult 2X-Large",
+  "hoodieAdult 2XL" : {
+
     "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
-  "hoodieAdult 3X-Large" : {
-    "name": "Hoodie - Adult 3X-Large",
+  "hoodieAdult 3XL" : {
     "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
   "hoodieChild 1-2 Yrs" : {
-    "name": "Hoodie - Child 1-2 Yrs",
     "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
   "hoodieChild 3-4 Yrs" : {
-    "name": "Hoodie - Child 3-4 Yrs",
     "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
   "hoodieChild 5-6 Yrs" : {
-    "name": "Hoodie - Child 5-6 Yrs",
     "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
   "hoodieChild 7-8 Yrs" : {
-    "name": "Hoodie - Child 7-8 Yrs",
     "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
   "hoodieChild 9-10 Yrs" : {
-    "name": "Hoodie - Child 9-10 Yrs",
     "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
   "hoodieChild 11-12 Yrs" : {
-    "name": "Hoodie - Child 11-12 Yrs",
     "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
   "hoodieChild 13-14 Yrs" : {
-    "name": "Hoodie - Child 13-14 Yrs",
     "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
 
-  "jerseyAdult X-Small" : {
-    "name": "Jersey - Adult X-Small",
+  "jerseyAdult XS" : {
     "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
   "jerseyAdult Small" : {
-    "name": "Jersey - Adult Small",
     "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
   "jerseyAdult Medium" : {
-    "name": "Jersey - Adult Medium",
     "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
   "jerseyAdult Large" : {
-    "name": "Jersey - Adult Large",
     "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
-  "jerseyAdult X-Large" : {
-    "name": "Jersey - Adult X-Large",
+  "jerseyAdult XL" : {
     "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
-  "jerseyAdult 2X-Large" : {
-    "name": "Jersey - Adult 2X-Large",
+  "jerseyAdult 2XL" : {
     "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
-  "jerseyAdult 3X-Large" : {
-    "name": "Jersey - Adult 3X-Large",
+  "jerseyAdult 3XL" : {
     "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2999" 
   },
   "jerseyChild 1-2 Yrs" : {
-    "name": "Jersey - Child 1-2 Yrs",
     "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2599" 
   },
   "jerseyChild 3-4 Yrs" : {
-    "name": "Jersey - Child 3-4 Yrs",
     "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2599" 
   },
   "jerseyChild 5-6 Yrs" : {
-    "name": "Jersey - Child 5-6 Yrs",
     "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2599" 
   },
   "jerseyChild 7-8 Yrs" : {
-    "name": "Jersey - Child 7-8 Yrs",
     "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2599" 
   },
   "jerseyChild 9-10 Yrs" : {
-    "name": "Jersey - Child 9-10 Yrs",
     "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2599" 
   },
   "jerseyChild 11-12 Yrs" : {
-    "name": "Jersey - Child 11-12 Yrs",
     "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2599" 
   },
+
   "jerseyChild 13-14 Yrs" : {
-    "name": "Jersey - Child 13-14 Yrs",
     "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Order before November 30 to recieve it before Christmas",
+    "description": "Fabrication order will be placed November 30th",
     "quantity": "1",
     "currency": "eur",
     "amount": "2599" 

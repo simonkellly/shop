@@ -1,6 +1,7 @@
 
 //Cart
 var cart = []
+var carttwo = []
 var cost = 0;
 const shippingSelect = document.getElementById('shippingType')
 var cartCards = document.getElementById("cartCards");
@@ -88,12 +89,13 @@ imageElem = document.getElementById("imageElem")
 
 function jerseySize(){
   var jerseySelect = document.getElementById("jerseySelect");
+  var jerseyCustom = document.getElementById("jerseyCustom")
   var jerseySize= "jersey" + jerseySelect.options[jerseySelect.selectedIndex].text;
-  console.log(jerseySize);
-  
-  console.log(data[jerseySize]);
-  cart.push(data[jerseySize])
-  console.log(cart);
+  if (jerseySize !== "jerseySize") {
+  if (jerseyCustom && jerseyCustom.value){
+  let cartItem = data[jerseySize]
+  cartItem["name"] = "Jersey - " + jerseySelect.options[jerseySelect.selectedIndex].text + " - " + jerseyCustom.value
+  cart.push(cartItem)
   closeJerseyFunction();
   // alert("Item added to cart")
   cost = parseInt(cost) + parseInt(data[jerseySize].amount)
@@ -106,32 +108,44 @@ function jerseySize(){
     price: data[jerseySize].amount
   })
   cartCards.appendChild(article)
+  }else {
+  alert('Please Input Customisation Options')
+  }
+  } else {
+  alert('Please Select Size')
+  }
 }
+
 
 function hoodieSize(){
   var hoodieSelect = document.getElementById("hoodieSelect");
+  var hoodieCustom = document.getElementById("hoodieCustom")
   var hoodieSize= "hoodie" + hoodieSelect.options[hoodieSelect.selectedIndex].text;
-  if (hoodieSize !== "hoodieSelect Size") {
-    console.log(data[hoodieSize]);
-    cart.push(data[hoodieSize])
-    console.log(cart);
-    closeHoodieFunction();
-    // alert("Item added to cart")
-    cost = parseInt(cost) + parseInt(data[hoodieSize].amount)
-    runningTotal = parseInt(cost) + deliveryPrice
-    var cartTotal = document.getElementById("cartTotal").innerHTML = "Total: €" + runningTotal/100
-    const article = createItem({
-      name: data[hoodieSize].name,
-      images: data[hoodieSize].images,
-      description: data[hoodieSize].description,
-      price: data[hoodieSize].amount
-    })
-    cartCards.appendChild(article)
-  } else {
-    alert('Select Size')
+  if (hoodieSize !== "hoodieSize") {
+  if (hoodieCustom && hoodieCustom.value){
+  let cartItem = data[hoodieSize]
+  cartItem["name"] = "Hoodie - " + hoodieSelect.options[hoodieSelect.selectedIndex].text + " - " + hoodieCustom.value
+  cart.push(cartItem)
+  closeHoodieFunction();
+  // alert("Item added to cart")
+  cost = parseInt(cost) + parseInt(data[hoodieSize].amount)
+  runningTotal = parseInt(cost) + deliveryPrice
+  var cartTotal = document.getElementById("cartTotal").innerHTML = "Total: €" + runningTotal/100
+  const article = createItem({
+    name: data[hoodieSize].name,
+    images: data[hoodieSize].images,
+    description: data[hoodieSize].description,
+    price: data[hoodieSize].amount
+  })
+  cartCards.appendChild(article)
+  }else {
+  alert('Please Input Customisation Options')
   }
-  
+} else {
+  alert('Please Select Size')
 }
+}
+
 
 var deliveryPrice = 0
 runningTotal = 0
