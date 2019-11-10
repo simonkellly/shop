@@ -299,7 +299,31 @@
       </footer>
     </div>
     </div>
-    
+<!-- T-Shirt -->
+    <div class="column is-one-quarter-desktop is-one-third-tablet" >
+      <div class="card" id="tshirt">
+      <div class="card-image">
+          <img class="image is-block product" src="assets/products/Tshirt Front.png" onclick="modalImage('assets/products/Tshirt Front.png')">
+        </div>
+      <div class="card-content">
+          <!-- <p class="product">
+              <img class="image is-64x64 is-block product" src="assets/products/Tshirt Front.png" onclick="modalImage('assets/products/Tshirt Front.png')">
+              <img class="image is-64x64 is-block product " src="assets/products/Tshirt Back.png" onclick="modalImage('assets/products/Tshirt Back.png')">
+            </p> -->
+        <hr>
+        <p class="title">EEÉ T-Shirt <span class="tag is-primary is-pulled right">Order By Oct 27</span></p>
+        <p class="subtitle has-text-link">€9.99</p> 
+      </div>
+      <footer class="card-footer">
+          <p class="card-footer-item">
+              <span>
+                <a onclick="modalTshirt()">Add To Cart</a>
+              </span>
+            </p>
+      </footer>
+    </div>
+    </div>
+
     
   </div>
 </div>
@@ -424,6 +448,48 @@
     </div>
   </div>
 
+  <!-- tshirt -->
+  <div class="modal" id="tshirtModal">
+    <div class="modal-background" onclick="closeTshirtFunction()"></div>
+    <div class="modal-card">
+      <header class="modal-card-head">
+        <p class="modal-card-title"><strong>EEÉ T-Shirt</strong></p>
+        <button class="delete" aria-label="close" onClick="closeTshirtFunction()"></button>
+      </header>
+      <section class="modal-card-body">
+          <p id="descText">
+             <strong>To be collected at Every Event Éire 2019</strong> 
+             <br>
+             Limited number availible
+             Order before Oct 27 to avoid disapointment
+              <br>
+              <br>
+              T-Shirt Price: €9.99 
+            
+          </p>
+          <hr>
+          <p class="product">
+            <img class="image is-128x128 is-block product" src="assets/products/Tshirt Front.png" onclick="modalImage('assets/products/Tshirt Front.png')">
+            <img class="image is-128x128 is-block product " src="assets/products/Tshirt Back.png" onclick="modalImage('assets/products/Tshirt Back.png')">
+          </p>
+        <hr>
+        <label class="label">Select Size</label>
+        <div class="select">
+          <select id="tshirtSelect">
+              <option value="Select Size" disabled selected>Size</option>
+              <option>Adult XS</option>
+              <option>Adult Small</option>
+              <option>Adult Medium</option>
+              <option>Adult Large</option>
+              <option>Adult XL</option>
+          </select>
+        </div>
+      </section>  
+      <footer class="modal-card-foot">
+        <button class="button is-success" onclick="tshirtSize()">Add to Cart</button>
+      </footer>
+    </div>
+  </div>
 <!-- Image Modal -->
   <div class="modal" id="imageModal">
     <div class="modal-background" onclick="closeImageFunction()"></div>

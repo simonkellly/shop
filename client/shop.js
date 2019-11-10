@@ -57,6 +57,16 @@ function closeJerseyFunction() {
     document.getElementById("jerseyModal").className += "modal";
   }
   
+//Tshirt
+function modalTshirt() {
+  document.getElementById("tshirtModal").className += " is-active";
+}
+
+function closeTshirtFunction() {
+  document.getElementById("tshirtModal").className += "modal";
+}
+
+
 // JSON code
 let data  = ''
 fetch('products.json')
@@ -146,6 +156,29 @@ function hoodieSize(){
 }
 }
 
+function tshirtSize(){
+  var tshirtSelect = document.getElementById("tshirtSelect");
+  var tshirtSize= "tshirt" + tshirtSelect.options[tshirtSelect.selectedIndex].text;
+  if (tshirtSize !== "tshirtSize") {
+  let cartItem = data[tshirtSize]
+  cartItem["name"] = "T-Shirt - " + tshirtSelect.options[tshirtSelect.selectedIndex].text 
+  cart.push(cartItem)
+  closeTshirtFunction();
+  // alert("Item added to cart")
+  cost = parseInt(cost) + parseInt(data[tshirtSize].amount)
+  runningTotal = parseInt(cost) + deliveryPrice
+  var cartTotal = document.getElementById("cartTotal").innerHTML = "Total: €" + runningTotal/100
+  const article = createItem({
+    name: data[tshirtSize].name,
+    images: data[tshirtSize].images,
+    description: data[tshirtSize].description,
+    price: data[tshirtSize].amount
+  })
+  cartCards.appendChild(article)
+  }else {
+  alert('Please Input Customisation Options')
+  }
+}
 
 var deliveryPrice = 0
 runningTotal = 0
