@@ -2,13 +2,32 @@
 //Cart
 var cart = []
 var cost = 0;
-
+const shippingSelect = document.getElementById('shippingType')
 var cartCards = document.getElementById("cartCards");
 var cartTotal = document.getElementById("cartTotal").innerHTML = "Total: €" + cost/100
 
+var cartButton = document.getElementById("cartButton")
+
+
+
 function start(){
-  document.getElementById("shippingType").addEventListener("change", shippingType, false);
+  
+    if (shippingSelect.value === 'delivery'){
+      deliveryPrice = 650
+      runningTotal = parseInt(cost) + deliveryPrice
+      var cartTotal = document.getElementById("cartTotal").innerHTML = "Total: €" + runningTotal/100
+  
+    }else{
+      if (shippingSelect.value === 'collection'){
+        deliveryPrice = 0
+        runningTotal = parseInt(cost) + deliveryPrice
+        var cartTotal = document.getElementById("cartTotal").innerHTML = "Total: €" + runningTotal/100
+    }
+  } 
+  
+  shippingSelect.addEventListener("change", shippingType, false);
   }
+
 window.addEventListener("load", start, false);
 
 function modalCart() {
@@ -117,7 +136,6 @@ function hoodieSize(){
 var deliveryPrice = 0
 runningTotal = 0
 
-const shippingSelect = document.getElementById('shippingType')
 shippingSelect.addEventListener('change', (e) => {
   if (e.target.value === 'delivery'){
     deliveryPrice = 650
@@ -130,8 +148,7 @@ shippingSelect.addEventListener('change', (e) => {
       runningTotal = parseInt(cost) + deliveryPrice
       var cartTotal = document.getElementById("cartTotal").innerHTML = "Total: €" + runningTotal/100
   }
-}
-  
+} 
 })
 
 // Stripe Code ======================

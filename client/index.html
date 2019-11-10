@@ -20,6 +20,10 @@
   <script defer src="shop.js"></script>
 
   <style>
+      .text-centered {
+        text-align: center;
+        
+      }
       .type {
           margin-top: 10px;
           margin-left: 15px;
@@ -43,6 +47,11 @@
           margin-left: 10px;
           margin-right: 10px;
         }
+        .left-padded {
+          margin-right: 5px;
+        }
+        
+        
       </style>
     <style>
     .right{
@@ -60,12 +69,15 @@
       padding: 15px;
     }
     .cart {
-      padding-right: 10px;
-    }
+      /* padding-right: 10px; */
+      position: fixed;
+      bottom: 35px;
+      right: 35px;
+      }
   </style>
 </head>
 <body class="has-navbar-fixed-top">
-    <!-- Navbar -->
+<!-- Navbar -->
     <nav aria-label="main navigation" class="navbar is-light is-fixed-top" role="navigation">
         <div class="navbar-start">
           <div class="navbar-brand extra-padding-nav">
@@ -94,7 +106,7 @@
               <a class="navbar-item" href="https://speedcubingireland.com/live.html">Live</a> <a class="navbar-item" href="https://www.worldcubeassociation.org/results/regions.php?regionId=Ireland&eventId=&years=&slim=Slim" onclick="reload();" target="_blank">WCA</a> <a class="navbar-item" href="https://wcadb.net/?region=Ireland&gender=female" onclick="reload();" target="_blank">Female Records</a>
             </div>
           </div>
-          <a class="navbar-item is-active" href="http://shop.speedcubingireland.com">Shop</a>
+          <a class="navbar-item is-active" href="https://shop.speedcubingireland.com">Shop</a>
           <a class="navbar-item" href="https://speedcubingireland.com/gallery.html">Gallery</a>
           
           <div class="navbar-item has-dropdown is-hoverable">
@@ -208,31 +220,14 @@
         </div>
         </div>
 
-<!-- hero -->
-<section class="hero is-danger">
-    <div class="hero-body">
-      <div class="container">
-        
-        <h1 class="title">
-          Speedcubing Ireland Store
-        </h1>
-        <h2 class="subtitle">
-          The official store for Speedcubing Ireland Merchandise
-        </h2>
-      </div>
-    </div>
-  </section>
-<br>
-<div class="level-right">
-    <p class="level-item cart"><a class="has-text-grey" onclick="modalCart()">
-      <span class="">
-          <i class="fas fa-2x fa-shopping-cart"></i>
-        </span>
-      </span>
-    </a></p>
-  </div>
-  <hr>
+<!-- Hero -->
+<div class="titleSection notification is-danger home-hero">
   <br>
+  <p class="title is-2 has-text-centered">Speedcubing Ireland Store</p>
+  <p class="subtitle has-text-centered has-text-weight-light">The official store for Speedcubing Ireland Merchandise</p>
+  <br>
+</div>
+
 <!-- Items -->
 <div class="container is-fluid">
   <!-- Columns -->
@@ -244,18 +239,18 @@
           <img class="image is-block product" src="assets/products/Hoodie Front.png" onclick="modalImage('assets/products/Hoodie Front.png')">
         </div>
       <div class="card-content">
-          <p class="product">
+          <!-- <p class="product">
               <img class="image is-64x64 is-block product" src="assets/products/Hoodie Front.png" onclick="modalImage('assets/products/Hoodie Front.png')">
               <img class="image is-64x64 is-block product" src="assets/products/Hoodie Side.png" onclick="modalImage('assets/products/Hoodie Side.png')">
               <img class="image is-64x64 is-block product " src="assets/products/Hoodie Back.png" onclick="modalImage('assets/products/Hoodie Back.png')">
-            </p>
+            </p> -->
         <hr>
         <p class="title">SI Hoodie <span class="tag is-primary is-pulled right">Order By Nov 30</span></p>
         <p class="subtitle has-text-link">€29.99 - €34.99</p> 
-        <p class="subtitle is-size-8 has-text-grey">
-          Adult: XS - 3XL
+        <p class="is-size-6 has-text-grey">
+          With custom name
           <br>
-          Childrens: 8 - 14 Yrs
+          Group order will be placed on November 30th
         </p>
       </div>
       <footer class="card-footer">
@@ -274,18 +269,18 @@
           <img class="image is-block product" src="assets/products/Jersey Front.png" onclick="modalImage('assets/products/Jersey Front.png')">
         </div>
       <div class="card-content">
-          <p class="product">
+          <!-- <p class="product">
               <img class="image is-64x64 is-block product" src="assets/products/Jersey Front.png" onclick="modalImage('assets/products/Jersey Front.png')">
               <img class="image is-64x64 is-block product" src="assets/products/Jersey Side.png" onclick="modalImage('assets/products/Jersey Side.png')">
               <img class="image is-64x64 is-block product " src="assets/products/Jersey Back.png" onclick="modalImage('assets/products/Jersey Back.png')">
-            </p>
+            </p> -->
         <hr>
         <p class="title">SI Jersey <span class="tag is-primary is-pulled right">Order By Nov 30</span></p>
         <p class="subtitle has-text-link">€25.99 - €29.99</p> 
-        <p class="subtitle is-size-8 has-text-grey">
-            Adult: XS - 3XL 
+        <p class="is-size-6 has-text-grey">
+            With initials
             <br>
-            Childrens: 8 - 14 Yrs
+            Group order will be placed on November 30th
           </p>
       </div>
       <footer class="card-footer">
@@ -331,6 +326,7 @@
               <option>Adult X-Small</option>
               <option>Adult Small</option>
               <option>Adult Medium</option>
+              <option>Adult Large</option>
               <option>Adult X-Large</option>
               <option>Adult 2X-Large</option>
               <option>Adult 3X-Large</option>
@@ -379,6 +375,7 @@
             <option>Adult X-Small</option>
             <option>Adult Small</option>
             <option>Adult Medium</option>
+            <option>Adult Large</option>
             <option>Adult X-Large</option>
             <option>Adult 2X-Large</option>
             <option>Adult 3X-Large</option>
@@ -408,6 +405,7 @@
       </div>
       <button class="modal-close is-large" aria-label="close" onclick="closeImageFunction()"></button>
   </div>
+
 </div>
 
 <!-- Cart Modal -->
@@ -434,7 +432,7 @@
                     <br>
                     <div class="select" style="display:inline-block">
                       <select id="shippingType" selected="collection"> 
-                        <option value="collection">Collection</option>
+                        <option value="collection" selected>Collection</option>
                         <option value="delivery">Delivery</option>
                       </select> 
                     </div>
@@ -456,6 +454,15 @@
   </div>
 </div>
 
+<!-- Cart Button -->
+<button class="button cart is-size-5 is-rounded is-danger" onclick="modalCart()">
+  <span class="icon">
+    <i class="fas fa-shopping-cart"></i>
+  </span>
+  <span>Cart</span>
+</button>
+
+<!-- Scripts -->
 <script src="https://speedcubingireland.com/snarkdown.js"></script>
 <script src="https://speedcubingireland.com/main.js"></script>
 

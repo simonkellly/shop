@@ -1,7 +1,7 @@
 { 
   "shipping" : {
     "name": "Delivery",
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
+    "images": ["https://static.thenounproject.com/png/191970-200.png"],
     "description": "National Delivery",
     "quantity": "1",
     "currency": "eur",
