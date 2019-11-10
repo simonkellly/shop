@@ -16,7 +16,7 @@ npm install
 2. Run the application
 
 ```
-npm start
+npm start 
 ```
 
 3. Go to `localhost:4242` to see the demo
