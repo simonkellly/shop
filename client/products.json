@@ -212,7 +212,7 @@
     "amount": "2599" 
   },
   "tshirtAdult XS" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/T-Shirt%20Front.png"],
+    "images": ["http://shop.speedcubingireland.com/assets/products/Tshirt%20Front.png"],
     "description": "For Collection at EEÉ",
     "quantity": "1",
     "currency": "eur",
@@ -220,28 +220,28 @@
   },
 
   "tshirtAdult Small" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/T-Shirt%20Front.png"],
+    "images": ["http://shop.speedcubingireland.com/assets/products/Tshirt%20Front.png"],
     "description": "For Collection at EEÉ",
     "quantity": "1",
     "currency": "eur",
     "amount": "999" 
   },
   "tshirtAdult Medium" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/T-Shirt%20Front.png"],
+    "images": ["http://shop.speedcubingireland.com/assets/products/Tshirt%20Front.png"],
     "description": "For Collection at EEÉ",
     "quantity": "1",
     "currency": "eur",
     "amount": "999" 
   },
   "tshirtAdult Large" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/T-Shirt%20Front.png"],
+    "images": ["http://shop.speedcubingireland.com/assets/products/Tshirt%20Front.png"],
     "description": "For Collection at EEÉ",
     "quantity": "1",
     "currency": "eur",
     "amount": "999" 
   },
   "tshirtAdult XL" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/T-Shirt%20Front.png"],
+    "images": ["http://shop.speedcubingireland.com/assets/products/Tshirt%20Front.png"],
     "description": "For Collection at EEÉ",
     "quantity": "1",
     "currency": "eur",
