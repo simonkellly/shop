@@ -1,5 +1,5 @@
-# Checkout single product
-An [Express server](http://expressjs.com) implementation
+# Speedcubing Ireland Shop
+Based on Stripe's checkout-one-time-payments repo
 
 ## Requirements
 * Node v10+
