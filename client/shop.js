@@ -14,7 +14,7 @@ var cartButton = document.getElementById("cartButton")
 function start(){
   
     if (shippingSelect.value === 'delivery'){
-      deliveryPrice = 650
+      deliveryPrice = 250
       runningTotal = parseInt(cost) + deliveryPrice
       var cartTotal = document.getElementById("cartTotal").innerHTML = "Total: €" + runningTotal/100
   
@@ -185,7 +185,7 @@ runningTotal = 0
 
 shippingSelect.addEventListener('change', (e) => {
   if (e.target.value === 'delivery'){
-    deliveryPrice = 650
+    deliveryPrice = 250
     runningTotal = parseInt(cost) + deliveryPrice
     var cartTotal = document.getElementById("cartTotal").innerHTML = "Total: €" + runningTotal/100
 

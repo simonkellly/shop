@@ -240,25 +240,15 @@
   <!-- Columns -->
   <div class="columns is-multiline">
     <!-- Hoodiies -->
-    <div class="column is-one-quarter-desktop is-one-third-tablet" >
+    <!-- <div class="column is-one-quarter-desktop is-one-third-tablet" >
       <div class="card" id="hoodie">
       <div class="card-image">
           <img class="image is-block product" src="assets/products/Hoodie Front.png" onclick="modalImage('assets/products/Hoodie Front.png')">
         </div>
       <div class="card-content">
-          <!-- <p class="product">
-              <img class="image is-64x64 is-block product" src="assets/products/Hoodie Front.png" onclick="modalImage('assets/products/Hoodie Front.png')">
-              <img class="image is-64x64 is-block product" src="assets/products/Hoodie Side.png" onclick="modalImage('assets/products/Hoodie Side.png')">
-              <img class="image is-64x64 is-block product " src="assets/products/Hoodie Back.png" onclick="modalImage('assets/products/Hoodie Back.png')">
-            </p> -->
         <hr>
         <p class="title">SI Hoodie <span class="tag is-primary is-pulled right">Order By Nov 30</span></p>
         <p class="subtitle has-text-link">€29.99 - €34.99</p> 
-        <!-- <p class="is-size-6 has-text-grey">
-          With custom name
-          <br>
-          Group order will be placed on November 30th
-        </p> -->
       </div>
       <footer class="card-footer">
           <p class="card-footer-item">
@@ -268,7 +258,7 @@
             </p>
       </footer>
     </div>
-    </div>
+    </div> -->
   <!-- Jerseys -->
   <div class="column is-one-quarter-desktop is-one-third-tablet" >
       <div class="card" id="jersey">
@@ -276,19 +266,9 @@
           <img class="image is-block product" src="assets/products/Jersey Front.png" onclick="modalImage('assets/products/Jersey Front.png')">
         </div>
       <div class="card-content">
-          <!-- <p class="product">
-              <img class="image is-64x64 is-block product" src="assets/products/Jersey Front.png" onclick="modalImage('assets/products/Jersey Front.png')">
-              <img class="image is-64x64 is-block product" src="assets/products/Jersey Side.png" onclick="modalImage('assets/products/Jersey Side.png')">
-              <img class="image is-64x64 is-block product " src="assets/products/Jersey Back.png" onclick="modalImage('assets/products/Jersey Back.png')">
-            </p> -->
         <hr>
-        <p class="title">SI Jersey <span class="tag is-primary is-pulled right">Order By Nov 30</span></p>
+        <p class="title">SI Jersey <span class="tag is-danger is-pulled right">Sold Out</span></p>
         <p class="subtitle has-text-link">€25.99 - €29.99</p> 
-        <!-- <p class="is-size-6 has-text-grey">
-            With initials
-            <br>
-            Group order will be placed on November 30th
-          </p> -->
       </div>
       <footer class="card-footer">
           <p class="card-footer-item">
@@ -300,16 +280,12 @@
     </div>
     </div>
 <!-- T-Shirt -->
-    <div class="column is-one-quarter-desktop is-one-third-tablet" >
+    <!-- <div class="column is-one-quarter-desktop is-one-third-tablet" >
       <div class="card" id="tshirt">
       <div class="card-image">
           <img class="image is-block product" src="assets/products/Tshirt Front.png" onclick="modalImage('assets/products/Tshirt Front.png')">
         </div>
       <div class="card-content">
-          <!-- <p class="product">
-              <img class="image is-64x64 is-block product" src="assets/products/Tshirt Front.png" onclick="modalImage('assets/products/Tshirt Front.png')">
-              <img class="image is-64x64 is-block product " src="assets/products/Tshirt Back.png" onclick="modalImage('assets/products/Tshirt Back.png')">
-            </p> -->
         <hr>
         <p class="title">EEÉ T-Shirt <span class="tag is-danger is-pulled right">Sold Out</span></p>
         <p class="subtitle has-text-link">€9.99</p> 
@@ -322,9 +298,7 @@
             </p>
       </footer>
     </div>
-    </div>
-
-    
+  </div> -->
   </div>
 </div>
 
@@ -399,9 +373,9 @@
       </header>
       <section class="modal-card-body">
         <p id="descText">
-           <strong>Fabrication order will be placed November 30th</strong> 
+           <strong>This Item Is Sold Out</strong> 
            <br>
-           Order before then to avoid disapointment
+           Please check out social media for updates regarding when we will be accepting new orders.
             <br>
           
             <br>
@@ -417,7 +391,7 @@
       <hr>
       <label class="label">Select Size</label>
       <div class="select">
-        <select id="jerseySelect">
+        <select id="jerseySelect" disabled>
             <option value="Select Size" disabled selected>Size</option>
             <option>Adult XS</option>
             <option>Adult Small</option>
@@ -439,16 +413,16 @@
       <br>
       <br>
       <label class="label">Add Initials</label>
-      <input class="input" id="jerseyCustom" type="text" placeholder="Initials">
+      <input class="input" id="jerseyCustom" type="text" placeholder="Initials" disabled>
     
     </section> 
       <footer class="modal-card-foot">
-        <button class="button is-success" onclick="jerseySize()">Add to Cart</button>
+        <button class="button is-success" onclick="jerseySize()" disabled>Add to Cart</button>
       </footer>
     </div>
   </div>
 
-  <!-- tshirt -->
+  <!-- t-shirt -->
   <div class="modal" id="tshirtModal">
     <div class="modal-background" onclick="closeTshirtFunction()"></div>
     <div class="modal-card">
@@ -522,7 +496,7 @@
               <hr>
               <div class="notification">
                   <div>
-                    <Strong>Free collection at the next competition, or national delivery for €6.50</Strong>
+                    <Strong>Free collection at the next competition, or national delivery for €2.50</Strong>
                     </div>
                     <br>
                     <div class="select" style="display:inline-block">
