@@ -2,7 +2,7 @@ const express = require("express");
 const app = express();
 const { resolve } = require("path");
 // Copy the .env.example in the root into a .env file in this folder
-const env = require("dotenv").config({ path: "./.env" });
+// const env = require("dotenv").config({ path: "./.env" });
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 app.use(express.static(process.env.STATIC_DIR));
@@ -20,6 +20,11 @@ app.use(
 
 app.get("/", (req, res) => {
   const path = resolve(process.env.STATIC_DIR + "/index.html");
+  res.sendFile(path);
+});
+
+app.get("/custom", (req, res) => {
+  const path = resolve(process.env.STATIC_DIR + "/custom.html");
   res.sendFile(path);
 });
 
