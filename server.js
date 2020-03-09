@@ -2,13 +2,13 @@ const express = require("express");
 const app = express();
 const { resolve } = require("path");
 // Copy the .env.example in the root into a .env file in this folder
-// const env = require("dotenv").config({ path: "./.env" });
+const env = require("dotenv").config({ path: "./.env" });
 const stripe = require("stripe")(process.env.STRIPE_SECRET_KEY);
 
 app.use(express.static(process.env.STATIC_DIR));
 app.use(
   express.json({
-    // We need the raw body to verify webhook signatures.
+    // We need the raw body to verify webhnook signatures.
     // Let's compute it only when hitting the Stripe webhook endpoint.
     verify: function(req, res, buf) {
       if (req.originalUrl.startsWith("/webhook")) {
