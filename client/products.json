@@ -54,21 +54,21 @@
     "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
-    "amount": "2800" 
+    "amount": "30" 
   },
   "jerseyChild 9-10 Yrs" : {
     "images": ["http://shop.speedcubingireland.com/assets/products/JFront.png"],
     "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
-    "amount": "2800" 
+    "amount": "30" 
   },
   "jerseyChild 11-12 Yrs" : {
     "images": ["http://shop.speedcubingireland.com/assets/products/JFront.png"],
     "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
-    "amount": "2800" 
+    "amount": "30" 
   },
 
   "jerseyChild 13-14 Yrs" : {
@@ -76,6 +76,6 @@
     "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
-    "amount": "2800" 
+    "amount": "30" 
   }
 }
