@@ -239,36 +239,16 @@
 <div class="container is-fluid">
   <!-- Columns -->
   <div class="columns is-multiline">
-    <!-- Hoodiies -->
-    <!-- <div class="column is-one-quarter-desktop is-one-third-tablet" >
-      <div class="card" id="hoodie">
-      <div class="card-image">
-          <img class="image is-block product" src="assets/products/Hoodie Front.png" onclick="modalImage('assets/products/Hoodie Front.png')">
-        </div>
-      <div class="card-content">
-        <hr>
-        <p class="title">SI Hoodie <span class="tag is-primary is-pulled right">Order By Nov 30</span></p>
-        <p class="subtitle has-text-link">€29.99 - €34.99</p> 
-      </div>
-      <footer class="card-footer">
-          <p class="card-footer-item">
-              <span>
-                <a onclick="modalHoodie()">Add To Cart</a>
-              </span>
-            </p>
-      </footer>
-    </div>
-    </div> -->
   <!-- Jerseys -->
   <div class="column is-one-quarter-desktop is-one-third-tablet" >
       <div class="card" id="jersey">
       <div class="card-image">
-          <img class="image is-block product" src="assets/products/Jersey Front.png" onclick="modalImage('assets/products/Jersey Front.png')">
+          <img class="image is-block product" src="assets/products/JFront.png" onclick="modalImage('assets/products/JFront.png')">
         </div>
       <div class="card-content">
         <hr>
-        <p class="title">SI Jersey <span class="tag is-success is-pulled right">Until Friday 13th</span></p>
-        <p class="subtitle has-text-link">€29 - €33</p> 
+        <p class="title">SI Jersey <span class="tag is-success is-pulled right">Until July 3rd</span></p>
+        <p class="subtitle has-text-link">€28 - €35</p> 
       </div>
       <footer class="card-footer">
           <p class="card-footer-item">
@@ -304,89 +284,31 @@
 
 <!-- Item Models -->
 <div>
-<!-- hoodie -->
-  <div class="modal" id="hoodieModal">
-    <div class="modal-background" onclick="closeHoodieFunction()"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title"><strong>SI Hoodie - Custom Name</strong></p>
-        <button class="delete" aria-label="close" onClick="closeHoodieFunction()"></button>
-      </header>
-      <section class="modal-card-body">
-          <p id="descText">
-             <strong>Fabrication order will be placed November 30th</strong> 
-             <br>
-             Order before then to avoid disapointment
-              <br>
-            
-              <br>
-              Adult Sizes: €34.99 <br>
-              Child Sizes: €29.99
-          </p>
-          <hr>
-          <p class="product">
-            <img class="image is-128x128 is-block product" src="assets/products/Hoodie Front.png" onclick="modalImage('assets/products/Hoodie Front.png')">
-            <img class="image is-128x128 is-block product is-hidden-mobile" src="assets/products/Hoodie Side.png" onclick="modalImage('assets/products/Hoodie Side.png')">
-            <img class="image is-128x128 is-block product " src="assets/products/Hoodie Back.png" onclick="modalImage('assets/products/Hoodie Back.png')">
-          </p>
-        <hr>
-        <label class="label">Select Size</label>
-        <div class="select">
-          <select id="hoodieSelect">
-              <option value="Select Size" disabled selected>Size</option>
-              <option>Adult XS</option>
-              <option>Adult Small</option>
-              <option>Adult Medium</option>
-              <option>Adult Large</option>
-              <option>Adult XL</option>
-              <option>Adult 2XL</option>
-              <option>Adult 3XL</option>
-              <option value="" disabled>Child Sizes</option>
-              <option>Child 1-2 Yrs</option>
-              <option>Child 3-4 Yrs</option>
-              <option>Child 5-6 Yrs</option>
-              <option>Child 7-8 Yrs</option>
-              <option>Child 9-10 Yrs</option>
-              <option>Child 11-12 Yrs</option>
-              <option>Child 13-14 Yrs</option>
-          </select>
-        </div>
-        <br>
-        <br>
-        <label class="label">Add Name</label>
-        <input class="input" id="hoodieCustom" type="text" value='' placeholder="Initials">
-      
-      </section>  
-      <footer class="modal-card-foot">
-        <button class="button is-success" onclick="hoodieSize()">Add to Cart</button>
-      </footer>
-    </div>
-  </div>
 
 <!-- jersey -->
   <div class="modal" id="jerseyModal">
     <div class="modal-background" onclick="closeJerseyFunction()"></div>
     <div class="modal-card">
       <header class="modal-card-head">
-        <p class="modal-card-title"><strong>SI Jersey - Custom Initials</strong></p>
+        <p class="modal-card-title"><strong>SI Jersey</strong></p>
         <button class="delete" aria-label="close" onClick="closeJerseyFunction()"></button>
       </header>
       <section class="modal-card-body">
         <p id="descText">
-           <strong>We will be accepting orders until Friday 13th of March</strong> 
+           <strong>We will be accepting orders until July 3rd</strong> 
            <br>
-            Delivery is included in the price of this item
+            This item can be collected at Cubing With The Cats, or competitions following this.
+            Delivery is available but may result in significant delays in you receiving your jersey
             <br>
           
             <br>
-            Adult Sizes: €33 <br>
-            Child Sizes: €29
+            Adult Sizes: €35 <br>
+            Child Sizes: €28
         </p>
         <hr>
         <p class="product">
-          <img class="image is-128x128 is-block product" src="assets/products/Jersey Front.png" onclick="modalImage('assets/products/Jersey Front.png')">
-          <img class="image is-128x128 is-block product is-hidden-mobile" src="assets/products/Jersey Side.png" onclick="modalImage('assets/products/Jersey Side.png')">
-          <img class="image is-128x128 is-block product " src="assets/products/Jersey Back.png" onclick="modalImage('assets/products/Jersey Back.png')">
+          <img class="image is-128x128 is-block product" src="assets/products/JFront.png" onclick="modalImage('assets/products/JFront.png')">
+          <img class="image is-128x128 is-block product " src="assets/products/JBack.png" onclick="modalImage('assets/products/JBack.png')">
         </p>
       <hr>
       <label class="label">Select Size</label>
@@ -399,22 +321,13 @@
             <option>Adult Large</option>
             <option>Adult XL</option>
             <option>Adult 2XL</option>
-            <option>Adult 3XL</option>
             <option value="" disabled>Child Sizes</option>
-            <option>Child 1-2 Yrs</option>
-            <option>Child 3-4 Yrs</option>
-            <option>Child 5-6 Yrs</option>
             <option>Child 7-8 Yrs</option>
             <option>Child 9-10 Yrs</option>
             <option>Child 11-12 Yrs</option>
             <option>Child 13-14 Yrs</option>
         </select>
       </div>
-      <br>
-      <br>
-      <label class="label">Add Initials</label>
-      <input class="input" id="jerseyCustom" type="text" placeholder="Initials" >
-    
     </section> 
       <footer class="modal-card-foot">
         <button class="button is-success" onclick="jerseySize()" >Add to Cart</button>
@@ -422,48 +335,6 @@
     </div>
   </div>
 
-  <!-- t-shirt -->
-  <div class="modal" id="tshirtModal">
-    <div class="modal-background" onclick="closeTshirtFunction()"></div>
-    <div class="modal-card">
-      <header class="modal-card-head">
-        <p class="modal-card-title"><strong>EEÉ T-Shirt</strong></p>
-        <button class="delete" aria-label="close" onClick="closeTshirtFunction()"></button>
-      </header>
-      <section class="modal-card-body">
-          <p id="descText">
-             <strong>To be collected at Every Event Éire 2019</strong> 
-             <br>
-             Limited number availible
-             Order before Oct 27 to avoid disapointment
-              <br>
-              <br>
-              T-Shirt Price: €9.99 
-            
-          </p>
-          <hr>
-          <p class="product">
-            <img class="image is-128x128 is-block product" src="assets/products/Tshirt Front.png" onclick="modalImage('assets/products/Tshirt Front.png')">
-            <img class="image is-128x128 is-block product " src="assets/products/Tshirt Back.png" onclick="modalImage('assets/products/Tshirt Back.png')">
-          </p>
-        <hr>
-        <label class="label">Select Size</label>
-        <div class="select">
-          <select id="tshirtSelect">
-              <option value="Select Size" disabled selected>Size</option>
-              <option>Adult XS</option>
-              <option>Adult Small</option>
-              <option>Adult Medium</option>
-              <option>Adult Large</option>
-              <option>Adult XL</option>
-          </select>
-        </div>
-      </section>  
-      <footer class="modal-card-foot">
-        <button class="button is-success" onclick="tshirtSize()">Add to Cart</button>
-      </footer>
-    </div>
-  </div>
 <!-- Image Modal -->
   <div class="modal" id="imageModal">
     <div class="modal-background" onclick="closeImageFunction()"></div>

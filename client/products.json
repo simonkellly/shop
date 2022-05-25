@@ -7,245 +7,75 @@
     "currency": "eur",
     "amount": "0" 
   },
-  "hoodieAdult XS" : {
-    
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-  "hoodieAdult Small" : {
-    
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-  "hoodieAdult Medium" : {
-    
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-  "hoodieAdult Large" : {
-    
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-  "hoodieAdult XL" : {
-  
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-  "hoodieAdult 2XL" : {
-
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-  "hoodieAdult 3XL" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-  "hoodieChild 1-2 Yrs" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-  "hoodieChild 3-4 Yrs" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-  "hoodieChild 5-6 Yrs" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-  "hoodieChild 7-8 Yrs" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-  "hoodieChild 9-10 Yrs" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-  "hoodieChild 11-12 Yrs" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-  "hoodieChild 13-14 Yrs" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Hoodie%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-
   "jerseyAdult XS" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Orders Close Friday 13 March",
+    "images": ["http://shop.speedcubingireland.com/assets/products/JFront.png"],
+    "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
-    "amount": "3300" 
+    "amount": "3500" 
   },
   "jerseyAdult Small" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Orders Close Friday 13 March",
+    "images": ["http://shop.speedcubingireland.com/assets/products/JFront.png"],
+    "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
-    "amount": "3300" 
+    "amount": "3500" 
   },
   "jerseyAdult Medium" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Orders Close Friday 13 March",
+    "images": ["http://shop.speedcubingireland.com/assets/products/JFront.png"],
+    "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
-    "amount": "3300" 
+    "amount": "3500" 
   },
   "jerseyAdult Large" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Orders Close Friday 13 March",
+    "images": ["http://shop.speedcubingireland.com/assets/products/JFront.png"],
+    "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
-    "amount": "3300" 
+    "amount": "3500" 
   },
   "jerseyAdult XL" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Orders Close Friday 13 March",
+    "images": ["http://shop.speedcubingireland.com/assets/products/JFront.png"],
+    "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
-    "amount": "3300" 
+    "amount": "3500" 
   },
   "jerseyAdult 2XL" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Orders Close Friday 13 March",
+    "images": ["http://shop.speedcubingireland.com/assets/products/JFront.png"],
+    "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
-    "amount": "3300" 
-  },
-  "jerseyAdult 3XL" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "3300" 
-  },
-  "jerseyChild 1-2 Yrs" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "2900" 
-  },
-  "jerseyChild 3-4 Yrs" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "2900" 
-  },
-  "jerseyChild 5-6 Yrs" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Orders Close Friday 13 March",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "2900" 
+    "amount": "3500" 
   },
   "jerseyChild 7-8 Yrs" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Orders Close Friday 13 March",
+    "images": ["http://shop.speedcubingireland.com/assets/products/JFront.png"],
+    "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
-    "amount": "2900" 
+    "amount": "2800" 
   },
   "jerseyChild 9-10 Yrs" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Orders Close Friday 13 March",
+    "images": ["http://shop.speedcubingireland.com/assets/products/JFront.png"],
+    "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
-    "amount": "2900" 
+    "amount": "2800" 
   },
   "jerseyChild 11-12 Yrs" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Orders Close Friday 13 March",
+    "images": ["http://shop.speedcubingireland.com/assets/products/JFront.png"],
+    "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
-    "amount": "2900" 
+    "amount": "2800" 
   },
 
   "jerseyChild 13-14 Yrs" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Jersey%20Front.png"],
-    "description": "Orders Close Friday 13 March",
+    "images": ["http://shop.speedcubingireland.com/assets/products/JFront.png"],
+    "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
-    "amount": "2900" 
-  },
-  "tshirtAdult XS" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Tshirt%20Front.png"],
-    "description": "For Collection at EEÉ",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "999" 
-  },
-
-  "tshirtAdult Small" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Tshirt%20Front.png"],
-    "description": "For Collection at EEÉ",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "999" 
-  },
-  "tshirtAdult Medium" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Tshirt%20Front.png"],
-    "description": "For Collection at EEÉ",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "999" 
-  },
-  "tshirtAdult Large" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Tshirt%20Front.png"],
-    "description": "For Collection at EEÉ",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "999" 
-  },
-  "tshirtAdult XL" : {
-    "images": ["http://shop.speedcubingireland.com/assets/products/Tshirt%20Front.png"],
-    "description": "For Collection at EEÉ",
-    "quantity": "1",
-    "currency": "eur",
-    "amount": "999" 
+    "amount": "2800" 
   }
-
 }
