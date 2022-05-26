@@ -19,4 +19,4 @@ npm install
 npm start 
 ```
 
-3. Go to `shop.speedcubingireland.com` to see the demo
+3. Go to `speedcubing-ireland-shop.herokuapp.com` to see the demo
