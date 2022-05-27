@@ -8,63 +8,63 @@
     "amount": "0" 
   },
   "jerseyAdult XS" : {
-    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.png"],
+    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.jpeg"],
     "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
     "amount": "3500" 
   },
   "jerseyAdult Small" : {
-    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.png"],
+    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.jpeg"],
     "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
     "amount": "3500" 
   },
   "jerseyAdult Medium" : {
-    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.png"],
+    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.jpeg"],
     "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
     "amount": "3500" 
   },
   "jerseyAdult Large" : {
-    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.png"],
+    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.jpeg"],
     "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
     "amount": "3500" 
   },
   "jerseyAdult XL" : {
-    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.png"],
+    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.jpeg"],
     "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
     "amount": "3500" 
   },
   "jerseyAdult 2XL" : {
-    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.png"],
+    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.jpeg"],
     "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
     "amount": "3500" 
   },
   "jerseyChild 7-8 Yrs" : {
-    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.png"],
+    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.jpeg"],
     "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
     "amount": "3000" 
   },
   "jerseyChild 9-10 Yrs" : {
-    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.png"],
+    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.jpeg"],
     "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
     "amount": "3000" 
   },
   "jerseyChild 11-12 Yrs" : {
-    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.png"],
+    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.jpeg"],
     "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
@@ -72,7 +72,7 @@
   },
 
   "jerseyChild 13-14 Yrs" : {
-    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.png"],
+    "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.jpeg"],
     "description": "Orders Close July 3rd",
     "quantity": "1",
     "currency": "eur",
