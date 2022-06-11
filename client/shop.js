@@ -9,26 +9,6 @@ var cartTotal = (document.getElementById("cartTotal").innerHTML =
 
 var cartButton = document.getElementById("cartButton");
 
-function start() {
-  if (shippingSelect.value === "delivery") {
-    deliveryPrice = 0;
-    runningTotal = parseInt(cost) + deliveryPrice;
-    var cartTotal = (document.getElementById("cartTotal").innerHTML =
-      "Total: €" + runningTotal / 100);
-  } else {
-    if (shippingSelect.value === "collection") {
-      deliveryPrice = 0;
-      runningTotal = parseInt(cost) + deliveryPrice;
-      var cartTotal = (document.getElementById("cartTotal").innerHTML =
-        "Total: €" + runningTotal / 100);
-    }
-  }
-
-  shippingSelect.addEventListener("change", shippingType, false);
-}
-
-window.addEventListener("load", start, false);
-
 function modalCart() {
   document.getElementById("cartModal").className += " is-active";
 }
@@ -120,12 +100,24 @@ function jerseySize() {
 var deliveryPrice = 0;
 runningTotal = 0;
 
+var hasShownPopup = false;
+
 shippingSelect.addEventListener("change", (e) => {
   if (e.target.value === "delivery") {
     deliveryPrice = 0;
     runningTotal = parseInt(cost) + deliveryPrice;
     var cartTotal = (document.getElementById("cartTotal").innerHTML =
       "Total: €" + runningTotal / 100);
+  } else if (e.target.value === "intl_delivery") {
+    deliveryPrice = 800;
+    runningTotal = parseInt(cost) + deliveryPrice;
+    var cartTotal = (document.getElementById("cartTotal").innerHTML =
+      "Total: €" + runningTotal / 100);
+    if (!hasShownPopup) {
+      //show alert
+      hasShownPopup = true;
+      alert("If you have not already, please contact Speedcubing Ireland prior to making an international purchase.");
+    }
   } else {
     if (e.target.value === "collection") {
       deliveryPrice = 0;
@@ -144,6 +136,10 @@ var createCheckoutSession = function (stripe) {
   } else {
     if (shippingSelect.value === "delivery") {
       cart.push(data["shipping"]);
+    }
+
+    if (shippingSelect.value === "intl_delivery") {
+      cart.push(data["international Shipping"]);
     }
 
     return fetch("/create-checkout-session", {

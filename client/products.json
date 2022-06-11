@@ -2,10 +2,18 @@
   "shipping" : {
     "name": "Delivery",
     "images": ["https://static.thenounproject.com/png/191970-200.png"],
-    "description": "Free Delivery",
+    "description": "Free National Delivery",
     "quantity": "1",
     "currency": "eur",
     "amount": "0" 
+  },
+  "international Shipping": {
+    "name": "International Delivery",
+    "images": ["https://static.thenounproject.com/png/191970-200.png"],
+    "description": "International Delivery",
+    "quantity": "1",
+    "currency": "eur",
+    "amount": "800"
   },
   "jerseyAdult XS" : {
     "images": ["http://speedcubing-ireland-shop.herokuapp.com/assets/products/JFront.jpeg"],
